@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A simple portfolio website." />
+    <title>Portfolio - Abhishek Rawat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="profile-section">
+        <img
+          id="profilePic"
+          src="./assests/profilePic.jpg"
+          alt="Profile Picture"
+        />
+        <p>Abhishek Rawat</p>
+      </div>
+      <ul class="nav-items">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects-list">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Page Container -->
+    <div class="container" id="home">
+      <!-- Hero Section -->
+      <div class="hero-section">
+        <div class="h-left">
+          <img
+            id="hero-section-img"
+            src="./assests/heroImg.jpg"
+            alt="Hero Image"
+          />
+        </div>
+        <div class="h-right">
+          <h1>Hello, I'm Abhishek, I build things for the web</h1>
+          <p>
+            My name is Abhishek Rawat, and I'm a passionate web developer with a
+            talent for creating vibrant, easy-to-use websites out of ideas. I
+            enjoy creating simple, responsive designs that improve user
+            experience. I have experience with HTML, CSS, JavaScript, and a
+            number of frameworks. My method ensures that every project not only
+            meets but surpasses expectations by fusing technical know-how with
+            innovative problem-solving. Whether you want to improve an
+            already-existing website or start from scratch, I can help you
+            realise your vision. Come together and let's create something
+            incredible!
+          </p>
+        </div>
+      </div>
+
+      <!-- About Section -->
+      <div id="about">
+        <div class="about-container">
+          <h1 id="title">About Me</h1>
+          <div class="intro-section">
+            <p>
+              Abhishek Rawat is a skilled web developer with an MCA and BCA who has a strong background in theory and practice. Innovation and lifelong learning are two things that really inspire him. By staying up to date with emerging technology, Abhishek is committed to creating user-friendly, responsive websites that fulfill customer expectations. With attention to detail and dedication to quality, he turns abstract concepts into captivating digital experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects Section -->
+      <div id="projects-list">
+        <div>
+          <h1 id="title">Projects</h1>
+          <div class="project-container">
+            <div class="project-item">
+              <h2>Rental Website</h2>
+              <p>
+                A user-friendly rental website created with HTML, CSS, and bootstrap.
+                delivering a user-friendly interface for both desktop and mobile devices. facilitating user-friendly purchasing and selling processes. putting in place essential elements like chat, search, listings, and authentication.
+              </p>
+            </div>
+            <div class="project-item">
+              <h2>Parking Website</h2>
+              <p>
+                A parking management system was created using HTML, CSS, JavaScript, and MySQL for the database and user interface design.
+                This application aims to maximise space use, enhance user experience, and provide optimal security.
+              </p>
+            </div>
+            <div class="project-item">
+              <h2>Quote Generator</h2>
+              <p>
+                A JavaScript, HTML, and CSS website that generates quotes. With the push of a button, users can access new and inspirational content as it retrieves random quotes via an API. Effective outcomes with a straightforward design.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+      <div id="contact">
+        <div class="contact-header">
+          <h2 id="contactTitle">Contact Me</h2>
+          <p>
+            You can reach me using the form below if you'd like.
+          </p>
+        </div>
+        <div class="row">
+          <form action="/action_page.php">
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              id="fname"
+              placeholder="Your name.."
+            />
+            <label for="email">Email</label>
+            <input
+              type="text"
+              id="email"
+              placeholder="Your E-mail.."
+            />
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Write something.."
+              style="height: 170px"
+            ></textarea>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" title="Go to top">&#8679;</button>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Abhishek Rawat. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
